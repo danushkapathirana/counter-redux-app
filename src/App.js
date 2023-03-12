@@ -9,3 +9,8 @@ const App = () => {
 }
 
 export default App
+
+// libraries
+
+// redux
+// react-redux
