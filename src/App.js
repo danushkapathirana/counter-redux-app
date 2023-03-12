@@ -1,8 +1,10 @@
 import React from "react";
 
+import Counter from "./components/Counter";
+
 const App = () => {
   return(
-    <h1>Counter Redux App</h1>
+    <Counter />
   )
 }
 
