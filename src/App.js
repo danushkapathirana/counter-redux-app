@@ -1,10 +1,16 @@
-import React from "react";
+import React, { Fragment } from "react";
 
+import Auth from "./components/Auth";
 import Counter from "./components/Counter";
+import Header from "./components/Header";
 
 const App = () => {
   return(
-    <Counter />
+    <Fragment>
+      <Header />
+      <Auth />
+      <Counter />
+    </Fragment>
   )
 }
 
